@@ -407,6 +407,28 @@ class Service extends Lib\Base\Entity
 
         return $this;
     }
+    /**
+     * Gets user_wp_id
+     *
+     * @return int
+     */
+    public function getUSerWp()
+    {
+        return $this->user_wp_id;
+    }
+    
+    /**
+     * Sets user_wp_id
+     *
+     * @param int $user_wp_id
+     * @return $this
+     */
+    public function setUSerWp( $user_wp_id )
+    {
+        $this->user_wp_id = $user_wp_id;
+
+        return $this;
+    }
 
     /**
      * Gets type
